@@ -11,7 +11,7 @@
 
     <!-- 中间的 路由 router-view 区域 -->
 		<transition>
-			<router-view>1</router-view>
+			<router-view></router-view>
 		</transition>
 
 
