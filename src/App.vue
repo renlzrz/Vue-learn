@@ -2,7 +2,7 @@
   <div class="app-container">
 
     <!-- 顶部 Header 区域 -->
-    <mt-header fixed title="黑马程序员·Vue项目">
+    <mt-header fixed title="Vue练习">
       <span slot="left" @click="goBack" v-show="flag">
         <mt-button icon="back">返回</mt-button>
       </span>
@@ -74,7 +74,7 @@ export default {
   z-index: 99;
 }
 .app-container {
-  padding-top: 40px;
+  padding-top: 45px;
   padding-bottom: 50px;
   overflow-x: hidden;
 }
@@ -95,7 +95,7 @@ export default {
   transition: all 0.5s ease;
 }
 
-// 该类名，解决 tabbar 点击无法切换的问题
+/*该类名，解决 tabbar 点击无法切换的问题*/
 .mui-bar-tab .mui-tab-item-llb.mui-active {
   color: #007aff;
 }
