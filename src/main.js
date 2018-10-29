@@ -20,9 +20,6 @@ var store = new Vuex.Store({
   mutations: { // this.$store.commit('方法的名称', '按需传递唯一的参数')
     addToCar(state, goodsinfo) {
       // 点击加入购物车，把商品信息，保存到 store 中的 car 上
-      // 分析：
-      // 1. 如果购物车中，之前就已经有这个对应的商品了，那么，只需要更新数量
-      // 2. 如果没有，则直接把 商品数据，push 到 car 中即可
 
       // 假设 在购物车中，没有找到对应的商品
       var flag = false
