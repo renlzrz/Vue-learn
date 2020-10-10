@@ -1,7 +1,7 @@
 <template>
   <div>
     <cmtbox :id="$route.params.id"></cmtbox>
-    <div>22222222</div>
+    <div>2追追</div>
   </div>
 </template>
 
