@@ -1,6 +1,7 @@
 <template>
   <div>
     <cmtbox :id="$route.params.id"></cmtbox>
+    <div>ffffff</div>
   </div>
 </template>
 
